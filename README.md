@@ -233,6 +233,9 @@ ln -s "$(pwd)/skills/managing-google-workspace" ~/.claude/skills/managing-google
 
 ## CLI
 
+For a runnable client workflow that collects public web sources and optionally
+saves them in a Google Doc, see the [Parallel research example](docs/examples/README.md).
+
 `workspace-cli` lists and calls tools against a running server with encrypted, disk-backed OAuth token caching - authenticate once, script forever:
 
 ```bash
